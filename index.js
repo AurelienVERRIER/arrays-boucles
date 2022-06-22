@@ -101,17 +101,27 @@ console.log(total)
 
 // 09 Sans boucle
 
-  // const copains = ["Ami A","Copain B","pote C","camarade D","compagnon E"]
-  // const min = 1
-  // const max = copains.length -1
-  // const random = Math.floor(Math.random() * max) + min
+  const copains = ["Ami A","Copain B","pote C","camarade D","compagnon E"]
+  const min = 0
+  const max = copains.length -1
+  const random = Math.floor(Math.random() * max) + min
 
-  // console.log(copain[random])
+  console.log(copains[random])
 
-  // //10 Random and max
+  //10 Random and max
 
-  // const arrayToFill = []
+  const arrayToFill = []
+  const min = 0
+  const max = 100
+  const randomInt =  Math.floor(Math.random() * max) + min
 
-  // for (i=0, arrayToFill.length<20, random(1,100)) {
+  // for (i=0; arrayToFill.length<20; randomInt {
+  //   randomInt = randomInt
   //   console.log(arrayToFill)
   // }
+
+  for (i=0; i <20; i++) {
+    arrayToFill.push(randomInt)
+  }
+
+  console.log(arrayToFill)
